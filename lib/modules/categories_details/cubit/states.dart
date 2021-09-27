@@ -1,0 +1,8 @@
+
+abstract class CategoryDetailsStates{}
+
+class InitialGetCategoryDetailsData extends CategoryDetailsStates{}
+
+class LoadingGetCategoryDetailsData extends CategoryDetailsStates{}
+class SuccessGetCategoryDetailsData extends CategoryDetailsStates{}
+class ErrorGetCategoryDetailsData extends CategoryDetailsStates{}
